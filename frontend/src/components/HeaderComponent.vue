@@ -21,7 +21,7 @@ const handleLogout = async () => {
   if (response && response.status === 200) {
     storage.auth.logout();
 
-    router.push({name: "Home"});
+    router.push({name: "Login"});
   }
 };
 </script>
