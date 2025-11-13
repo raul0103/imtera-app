@@ -1,0 +1,10 @@
+.header {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dce4ea;
+  width: 100%;
+  display: flex;
+
+  &__logout-btn {
+    margin-left: auto;
+  }
+}

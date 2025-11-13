@@ -1,9 +1,9 @@
 <template>
-  <div class="main-layout">
-    <div class="main-layout__sidebar">
+  <div class="web-layout">
+    <div class="web-layout__sidebar">
       <SidebarComponent />
     </div>
-    <div class="main-layout__content">
+    <div class="web-layout__content">
       <HeaderComponent />
       <slot></slot>
     </div>
