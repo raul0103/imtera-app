@@ -41,7 +41,7 @@
 
       <p class="toggle-text">
         Уже есть аккаунт?
-        <router-link :to="{name: 'Login'}">Войти</router-link>
+        <router-link class="link" :to="{name: 'Login'}">Войти</router-link>
       </p>
     </div>
   </div>

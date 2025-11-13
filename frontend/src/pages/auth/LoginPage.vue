@@ -24,7 +24,9 @@
 
       <p class="toggle-text">
         Нет аккаунта?
-        <router-link :to="{name: 'Register'}">Регистрация</router-link>
+        <router-link class="link" :to="{name: 'Register'}"
+          >Регистрация</router-link
+        >
       </p>
     </div>
   </div>
