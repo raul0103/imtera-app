@@ -28,5 +28,11 @@
         margin-left: 0.25rem;
       }
     }
+
+    .form {
+      button[type="submit"] {
+        width: 100%;
+      }
+    }
   }
 }
