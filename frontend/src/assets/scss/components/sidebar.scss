@@ -21,4 +21,13 @@
       }
     }
   }
+
+  &__logo {
+    margin-bottom: 24px;
+    display: inline-block;
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
