@@ -34,12 +34,14 @@
           />
         </div>
 
-        <button type="submit">Зарегистрироваться</button>
+        <button class="btn btn--primary" type="submit">
+          Зарегистрироваться
+        </button>
       </form>
 
       <p class="toggle-text">
         Уже есть аккаунт?
-        <router-link :to="{name: 'Login'}">Авторизация</router-link>
+        <router-link :to="{name: 'Login'}">Войти</router-link>
       </p>
     </div>
   </div>

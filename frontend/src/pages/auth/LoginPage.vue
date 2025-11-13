@@ -19,7 +19,7 @@
           />
         </div>
 
-        <button type="submit">Войти</button>
+        <button class="btn btn--primary" type="submit">Войти</button>
       </form>
 
       <p class="toggle-text">
