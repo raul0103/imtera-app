@@ -1,3 +1,4 @@
+import storage from "@/utils/storage";
 import axios from "axios";
 
 const api = axios.create({
@@ -6,7 +7,7 @@ const api = axios.create({
 
 api.interceptors.request.use(
   (config) => {
-    config.headers.Authorization = `Bearer ${localStorage.getItem("token")}`;
+    config.headers.Authorization = `Bearer ${storage.token.get()}`;
     return config;
   },
   (error) => {
@@ -17,7 +18,7 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    console.error(error);
+    return Promise.reject(error);
   }
 );
 
