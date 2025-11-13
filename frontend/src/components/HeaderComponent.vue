@@ -7,6 +7,7 @@
 </template>
 
 <script setup>
+import router from "@/router";
 import {logout} from "@/api/auth";
 import storage from "@/utils/storage";
 const handleLogout = async () => {
