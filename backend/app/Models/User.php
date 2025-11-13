@@ -46,4 +46,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function yandexUrl()
+    {
+        return $this->hasOne(YandexUrl::class);
+    }
 }
