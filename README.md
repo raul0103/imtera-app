@@ -1,4 +1,4 @@
-# Imtera App — Laravel + Frontend (Vite/React/Nuxt)
+# Imtera App — Laravel + Frontend (Vite/Vue)
 
 ## 🚀 Структура
 
