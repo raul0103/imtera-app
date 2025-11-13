@@ -22,4 +22,23 @@ class YandexUrlService
             'data' => $yandexUrl
         ]);
     }
+
+    public function getUserYandexUrl()
+    {
+        $user = Auth::user();
+
+        $yandexUrl = $user->yandexUrl;
+
+        if (!$yandexUrl) {
+            return response()->json([
+                'message' => 'Yandex URL не найден',
+                'data' => null
+            ], 404);
+        }
+
+        return response()->json([
+            'message' => 'Yandex URL успешно получен',
+            'data' => $yandexUrl
+        ]);
+    }
 }

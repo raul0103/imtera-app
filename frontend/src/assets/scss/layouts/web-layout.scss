@@ -3,5 +3,8 @@
   min-height: 100vh;
   &__content {
     width: 100%;
+    &-wrapper {
+      padding: 15px 30px;
+    }
   }
 }

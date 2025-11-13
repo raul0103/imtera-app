@@ -5,7 +5,9 @@
     </div>
     <div class="web-layout__content">
       <HeaderComponent />
-      <slot></slot>
+      <div class="web-layout__content-wrapper">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>

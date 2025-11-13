@@ -13,4 +13,9 @@ class YandexUrlController extends Controller
     {
         return $this->yandexUrlService->updateOrCreate($request);
     }
+
+    public function getUserYandexUrl()
+    {
+        return $this->yandexUrlService->getUserYandexUrl();
+    }
 }
