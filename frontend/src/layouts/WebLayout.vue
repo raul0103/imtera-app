@@ -1,16 +1,12 @@
 <template>
   <div class="main-layout">
-    <header>Главное меню</header>
-    <main>
-      <div class="main-layout__sidebar">
-        <SidebarComponent />
-      </div>
-      <div class="main-layout__content">
-        <HeaderComponent />
-        <slot></slot>
-      </div>
-    </main>
-    <footer>Футер</footer>
+    <div class="main-layout__sidebar">
+      <SidebarComponent />
+    </div>
+    <div class="main-layout__content">
+      <HeaderComponent />
+      <slot></slot>
+    </div>
   </div>
 </template>
 

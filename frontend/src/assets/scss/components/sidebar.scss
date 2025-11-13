@@ -1,0 +1,24 @@
+.sidebar {
+  background: #f6f8fa;
+  width: 280px;
+  height: 100%;
+  padding: 30px 15px;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    a {
+      padding: 12px 24px;
+      border-radius: 8px;
+      transition: 0.3s;
+      &:not(.router-link-exact-active):hover {
+        background: #ebf4fd;
+      }
+      &.router-link-exact-active {
+        background: #fff;
+      }
+    }
+  }
+}
